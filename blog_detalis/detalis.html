@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>detalis</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="top">
+      <header class="header center">
+        <div class="logo">
+          <div class="logo__svg">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="34"
+              height="34"
+              viewBox="0 0 34 34"
+              fill="none"
+            >
+              <path
+                d="M0 34.0003H13.4588V24.499C13.4588 22.4853 15.0898 20.8543 17.1035 20.8543C19.1172 20.8543 20.7482 22.4853 20.7482 24.499V34.0003H33.9975V0C15.2211 0 0 15.2211 0 34.0003Z"
+                fill="#CDA274"
+              />
+            </svg>
+          </div>
+          <div class="logo__interno">
+            <p class="logo__interno_text">Interno</p>
+          </div>
+        </div>
+        <nav class="nav">
+          <div class="nav__menuBar">
+            <a href="#" class="nav__menubar_link">Home</a>
+          </div>
+          <div class="nav__menuBar">
+            <a href="#" class="nav__menubar_link">Project</a>
+          </div>
+          <div class="nav__menuBar">
+            <a href="#" class="nav__menubar_link">Blog</a>
+          </div>
+        </nav>
+      </header>
+      <div class="maine">
+        <div class="intro"></div>
+      </div>
+      <div
+    class="article center"
+    id="app"
+
+  >
+    <sort></sort>
+  </div>
+  <footer class="footer center">
+    <div class="footer-box">
+        <div class="footer-box__left">
+            <div class="logo">
+                <div class="logo__svg"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                    <path d="M0 34.0003H13.4588V24.499C13.4588 22.4853 15.0898 20.8543 17.1035 20.8543C19.1172 20.8543 20.7482 22.4853 20.7482 24.499V34.0003H33.9975V0C15.2211 0 0 15.2211 0 34.0003Z" fill="#CDA274"/>
+                  </svg></div>
+                <div class="logo__interno">
+                    <p class="logo__interno_text">
+                        Interno
+                    </p>
+                </div>
+            </div>
+            <p class="footer-box__left_text">It is a long established fact that a reader <br> will be distracted lookings.</p>
+            <div class="footer-box__left_svg">
+                <img src="../img/k (1).svg" alt="">
+                <img src="../img/2.svg" alt="">
+            </div>
+        </div>
+        <div class="footer-box__medium">
+            <a href="#" class="footer-box__medium_link">Pages</a>
+            <p class="footer-box__medium_text">
+             Home <br> Project <br> Blog
+            </p>
+        </div>
+        <div class="footer-box__right">
+            <a class="footer-box__right_title">Contact</a>
+            <p class="footer-box__right_text"><br> 55 East Birchwood Ave. <br> Brooklyn, New York 11201 <br><br> contact@interno.com <br><br>
+                (123) 456 - 7890</p>
+        </div>
+    </div>
+</footer>
+    </div>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="components/article.js"></script>
+    <script>
+      Vue.createApp({
+        
+        components: {
+          sort
+        },
+      }).mount("#app");
+    </script>
+  </body>
+</html>

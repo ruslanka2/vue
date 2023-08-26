@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  *a {
+    text-decoration: none;
+  }
+  .center {
+    padding-left: calc(50% - 1200px / 2);
+    padding-right: calc(50% - 1200px / 2);
+  }
+.header {
+    display: flex;
+    margin-top: 45px;
+    align-items: center;
+    .logo {
+      display: flex;
+      width: 50%;
+      &__svg {
+        margin-top: 5px;
+      }
+      &__interno {
+        &_text {
+          color: #292f36;
+          font-family: DM Serif Display;
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 125%; /* 50px */
+        }
+      }
+    }
+    .nav {
+      display: flex;
+      justify-content: flex-end;
+      width: 50%;
+      gap: 32px;
+      &__menubar_link {
+        color: #292f36;
+        text-align: center;
+        font-family: Jost;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%;
+      }
+    }
+  }
+
+.intro{
+    background-image: url(img/Photo\ \(10\).svg);
+     min-height: 350px;       }
+
+      
+.article{
+        display: flex;
+        gap: 56px;
+        &-box{
+          
+        }
+       
+      }
+     
+      .articles{
+        &__title{
+          color: #292F36;
+          font-family: DM Serif Display;
+          font-size: 50px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 125%; /* 62.5px */
+          letter-spacing: 1px;
+          margin-top: 80px;
+          margin-bottom: 30px;
+        }
+        &__img{
+          width: 650px;
+        }
+        &__text{
+          color: #4D5053;
+          font-family: Jost;
+          font-size: 22px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 150%; /* 33px */
+          letter-spacing: 0.22px;
+        }
+
+      }
+      .tagss{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        &__button{
+          border-radius: 10px;
+          background: #F4F0EC;
+          
+        }
+      }
+.tags__button{border-radius: 10px;
+  background: #F4F0EC;
+  padding: 8px 12px;
+          margin-left: 16px;
+          color: #000;
+text-align: center;
+font-family: Jost;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 22.5px */
+letter-spacing: 0.36px;
+
+&_text{
+  color: #000;
+text-align: center;
+font-family: Jost;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 22.5px */
+letter-spacing: 0.36px;
+}}
+.tags__title{
+  margin-top: 100px;
+          margin-bottom: 30px;
+          color: #292F36;
+font-family: DM Serif Display;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 31.25px */
+letter-spacing: 0.5px;
+}
+.active{
+  background: #000;
+  color: #FFF;
+
+}
+.footer {
+  &-box {
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    margin-top: 200px;
+
+    &__left {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        width: 400px;
+    
+      &_text {
+        color: #4d5053;
+        font-family: Jost;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 33px */
+        letter-spacing: 0.22px;
+      }
+      &_svg {
+      }
+    }
+    &__medium{
+        &_link{
+            color: #292F36;
+            font-family: DM Serif Display;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 125%; /* 31.25px */
+        }
+        &_text{
+            color: #4D5053;
+            font-family: Jost;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 300%; /* 66px */
+            letter-spacing: 0.22px;
+            }
+
+            
+        }
+    &__right{
+        &_title{
+            color: #292F36;
+            font-family: DM Serif Display;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 125%;
+        }
+        &_text{
+            
+            color: #4D5053;
+            font-family: Jost;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%; /* 33px */
+            letter-spacing: 0.22px;
+        }
+    }
+  }
+  .logo {
+    display: flex;
+    gap: 10px;
+    
+    &__svg {
+        margin-top: 5px;
+    }
+    &__interno {
+      display: flex;
+      &_text {
+        color: #292f36;
+        font-family: DM Serif Display;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%;
+      }
+    }
+  }
+}
+
+
